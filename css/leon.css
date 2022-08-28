@@ -87,6 +87,33 @@ body{
     position: relative;
     /* right: -500px; */
 }
+@media(min-width: 568px){
+    .header .logo{
+        position: absolute;
+        left: 65px;
+    }
+    .header .links{
+        right: -250px;
+    }
+}
+@media(min-width: 992px){
+    .header .logo{
+        position: absolute;
+        left: 100px;
+    }
+    .header .links{
+        right: -350px;
+    }
+}
+@media(min-width: 1200px){
+    .header .logo{
+        position: absolute;
+        left: 200px;
+    }
+    .header .links{
+        right: -500px; 
+    }
+}
 .header .links:hover .icon span:nth-child(2){
     width: 100%;
 }
